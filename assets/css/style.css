@@ -17,13 +17,16 @@ body {
 ul a  {
 	text-decoration: none;
 	list-style-type: none;
-	float: right;
+	color: #dddddd;
 	padding: 20px;
 	overflow: hidden;
 }
 
-nav li {
+ li {
 	display: inline;
+	float: right;
+	padding-top: 50px;
+
 }
 
 
@@ -91,7 +94,8 @@ article {
 
 h2 {
 	color: #4aaaa5;
-	margin-left: 10px;
+	margin-left: 15px;
+	margin-top: 10px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -115,6 +119,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border: 2px solid #dddddd;
 }
 
 input[name=message] {
@@ -133,5 +138,9 @@ height: 250px;
 
 form {
 	margin-left: 20px;
+	
 }
 
+hr {
+	border: solid 2px #dddddd;
+}
